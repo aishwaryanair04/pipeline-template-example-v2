@@ -1,0 +1,12 @@
+namespace: myNamespace1
+name: templateName1
+version: '1.3.2'
+description: template for testing
+maintainer: foo@bar.com
+
+config:
+    jobs:
+        main:
+            image: docker.ouroath.com:4443/docker.io/node:18
+            steps:
+                - printLine: echo "Testing pipeline templates"
